@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Учет сотрудников и заявок 1.0</string>
+
+  <string name="LegendAndFilter">ЛЕГЕНДА</string>
+
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="ImjaProekta">Проект / \nНаименование \nобъекта:</string>
+    <string name="InnerObjectCode">Внутренний \nшифр объекта: </string>
+    <string name="MaterialsCommonName">Наименование  материалов</string>
+    <string name="UnitOfMeasure">Ед.\nИзм</string>
+    <string name="RequestedVolume">Требуемый обьем</string>
+    <string name="MaterialSerialNumber">No \nп/п</string>
+    <string name="DownloadingDataPleaseWait">Получение данных, подождите</string>
+    <string name="InvalidPassword">Неправильный пароль</string>
+    <string name="LoginFailedCheckInternetConnection">Вход не выполнет, проверьте соединение с интернет</string>
+    <string name="DatabaseError">Ошибка базы данных</string>
+    <string name="LoginOrPasswordNotValid">Имя пользователя или пароль неверны</string>
+    <string name="ServerError">Ошибка данных, полученных с сервера</string>
+    <string name="ServerAnswerNotReceived">Нет ответа от сервера</string>
+    <string name="MapPreparationInProgressPleaseWait">Подготовка карты, пожалуйста подождите</string>
+    <string name="LocationServiceNotEnabled">GPS сервис отключен</string>
+    <string name="OfflineModeShowLoginScreenQuestion">Режим вне сети, подключиться к сети ?</string>
+    <string name="NoMailClientInstalled">Не установлено ни одного почтового клиента</string>
+
+
+</resources>

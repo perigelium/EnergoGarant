@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="16dp"
+              android:layout_marginTop="16dp"
+              android:background="#ffffffff"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llSectionEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:background="@android:color/transparent"
+                android:text=" от "
+                android:layout_marginLeft="6dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grayB2"/>
+
+        <TextView
+            android:id="@+id/tvDayOfMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="Дня"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grayB2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="  "
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grayB2"/>
+
+        <TextView
+            android:id="@+id/tvMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="Месяца"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grayB2"/>
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="Года"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grayB2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

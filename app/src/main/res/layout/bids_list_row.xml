@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fff5f5f5"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/shape_round_corners_list_item"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivBidStatus"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/yellow_oval_shape"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/detailsRows"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/tvBidSerialNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginLeft="0dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:maxWidth="230dp"
+                    android:text="Заявка N"
+                    android:textColor="#ff000000"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right">
+
+                    <TextView
+                        android:id="@+id/tvBidDDMMYYYY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DDMMYYYY"
+                        android:textColor="#ff000000"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:id="@+id/tvBidStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:maxWidth="220dp"
+                    android:text="На рассмотрении"
+                    android:textColor="#ff333333"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tvBidTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:text="MM:SS"
+                    android:textColor="#ff333333"
+                    android:textSize="12sp"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvReportStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Stato rapporto"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
